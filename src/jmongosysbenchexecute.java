@@ -78,7 +78,7 @@ public class jmongosysbenchexecute {
     }
 
     public static void main (String[] args) throws Exception {
-        if (args.length != 22) {
+        if (args.length != 24) {
             logMe("*** ERROR : CONFIGURATION ISSUE ***");
             logMe("jsysbenchexecute [number of collections] [database name] [number of writer threads] [documents per collection] [seconds feedback] "+
                                    "[log file name] [auto commit Y/N] [runtime (seconds)] [range size] [point selects] "+
